@@ -12,8 +12,9 @@ This repository contains my notes on different topics related to Swift and compu
 - Techniques
   - [Copy on write](Techniques/CopyOnWrite.playground)
 - Functional Programming
-  - [Styling](Functional%20Programming/Styling.playground)
+  - [Function Composition](Functional%20Programming/FunctionComposition.playground)
   - [Functors, Applicatives and Monads](Functional%20Programming/FunctorApplicativeMonad.playground)
+  - [Styling](Functional%20Programming/Styling.playground)
 - Design Patterns
   - [Strategy](Design%20Patterns/Strategy.playground)
   - [Observer](Design%20Patterns/Observer.playground)
