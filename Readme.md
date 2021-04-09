@@ -7,6 +7,7 @@ This repository contains my notes on different topics related to Swift and compu
 
 - Swift Features
   - [Swift 5.1](Swift%20Features/Swift-5.1.playground)
+  - [Codable - separate repository](https://github.com/filip-zielinski/CodablePlayground)
   - [KeyPaths](Swift%20Features/KeyPath.playground)
   - [Dynamic Member Lookup](Swift%20Features/DynamicMemberLookup.playground)
 - Techniques
