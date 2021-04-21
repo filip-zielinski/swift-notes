@@ -13,13 +13,13 @@ extension Array {
 }
 
 let a: [Int] = []
-a.middleIndex
-[2].middleIndex
-[2,3].middleIndex
-[2,3,4].middleIndex
-[1,3,4,5].middleIndex
-[1,3,4,5].middle
-[2,3,4,5,6].middleIndex
+a.middleIndex               // nil
+[2].middleIndex             // 0
+[2,3].middleIndex           // 0
+[2,3,4].middleIndex         // 1
+[1,3,4,5].middleIndex       // 1
+[1,3,4,5].middle            // 3
+[2,3,4,5,6].middleIndex     // 2
 
 
 extension Array where Element: Comparable {
@@ -41,5 +41,11 @@ extension Array where Element: Comparable {
 }
 
 let testArray = [1,3,4,5,6,7,8,10,20,22,25,44]
-print(testArray.allSatisfy { testArray.bSearch(element: $0) != nil })
 
+print(
+    testArray.allSatisfy { testArray.bSearch(element: $0) != nil }
+) // true
+
+print(
+    testArray.bSearch(element: 9) == nil
+) // true
