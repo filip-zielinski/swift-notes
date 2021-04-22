@@ -26,4 +26,5 @@ This repository contains my notes on different topics related to Swift and compu
 - Algorithms
   - [Fibonacci - recursive and dynamic algorithm](Algorithms/Fibonacci.playground)
   - [BinarySearch](Algorithms/BinarySearch.playground)
+  - [Selection Sort](Algorithms/SelectionSort.playground)
   - [Quicksort](Algorithms/Quicksort.playground)
